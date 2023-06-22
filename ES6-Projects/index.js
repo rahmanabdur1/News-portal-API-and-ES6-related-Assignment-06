@@ -32,10 +32,10 @@
       categoryCard.style.borderRadius = '10px';
       categoryCard.innerHTML = `
         <div class="row g-0">
-        <div class=" text-center col-md-6 col-sm-6 col-lg-6">
-          <img  src="${category.thumbnail_url}" class="img-fluid rounded-start" alt="...">
+        <div class="  col-md-6 col-sm-6 col-lg-4">
+          <img  src="${category.thumbnail_url}" class="img-fluid rounded-start img-fluid-mobile" alt="...">
           </div>     
-          <div class="col-md-6 col-sm-6 col-lg-6 ">
+          <div class="col-md-6 col-sm-6 col-lg-8 ">
             <div class="card-body w-100 ">
               <h5 class="card-title">${category.title}</h5>
               <p class="card-text card-details"><small>${category.details}...</small></p>
